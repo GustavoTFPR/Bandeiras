@@ -1,0 +1,23 @@
+.Bandeira {
+    display: flex;
+    height: 300px;
+    width:  400px;
+}
+
+.Vermelho {
+    background-color: red;
+    flex: 1;
+
+}
+
+.Azul {
+    background-color:blue;
+    flex: 1;
+
+}
+
+.Branco {
+    background-color: white;
+    flex: 1;
+
+}
