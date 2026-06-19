@@ -1,0 +1,23 @@
+.Bandeira {
+    display: flex;
+    height: 400px;
+    width:  400px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: red;
+}
+
+.Horizontal {
+    width: 180px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+}
+
+.Vertical {
+    width: 60px;
+    height: 180px;
+    background-color: white;
+    position: absolute;
+}

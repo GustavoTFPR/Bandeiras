@@ -1,0 +1,36 @@
+.Bandeira {
+    display: flex;
+    height: 300px;
+    width:  400px;
+}
+
+.Vermelho {
+    background-color: red;
+    flex-direction: row;
+    height: 300px;
+    width: 100px;
+}
+
+.Faixas {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.Verde {
+    background-color: green;
+    flex: 1;
+    
+}
+
+.Branco {
+
+    background-color: white;
+    flex: 1;
+}
+
+.Preto {
+
+    background-color: black;
+    flex: 1;
+}

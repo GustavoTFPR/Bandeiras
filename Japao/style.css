@@ -1,0 +1,18 @@
+.Bandeira {
+    display: flex;
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid black;
+
+}
+
+.Esfera {
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    border: 50px;
+    border-radius: 50%;
+}

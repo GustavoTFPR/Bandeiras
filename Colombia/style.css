@@ -1,0 +1,25 @@
+.Bandeira {
+    display: flex;
+    height: 300px;
+    width:  400px;
+    flex-direction: column;
+}
+
+.Amarelo {
+    background-color: yellow;
+    flex: 1.5;
+}
+
+.Azul {
+    background-color: blue;
+    flex: 1;
+    
+
+}
+
+.Vermelho {
+
+    background-color: red;
+    flex: 1;
+
+}

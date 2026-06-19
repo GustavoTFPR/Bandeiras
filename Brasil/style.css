@@ -1,0 +1,23 @@
+.Bandeira {
+    display: grid;
+    height: 300px;
+    width:  400px;
+}
+
+.Preto {
+    background-color:black;
+    flex: 1;
+
+}
+
+.Vermelho {
+    background-color: red;
+    flex: 1;
+
+}
+
+.Amarelo {
+    background-color: yellow;
+    flex: 1;
+
+}
