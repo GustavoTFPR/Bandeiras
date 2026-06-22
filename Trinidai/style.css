@@ -1,0 +1,38 @@
+.bandeiraTrinidai {
+    background-color: red;
+    display: flex;
+    position: relative;
+    padding-top: 2px;
+    margin-top: 40px;
+    height: 270px;
+    width: 400px;
+    overflow: hidden;
+    align-items: center
+}
+
+.tri-faixaBranca {
+    background-color: rgb(255, 255, 255);
+    height: 85px;
+    width: 485px;
+    left: -34px;
+    position: absolute;
+    transform: rotate(-32deg);
+    -webkit-transform: rotate(-32deg);
+    -moz-transform: rotate(-32deg);
+    -ms-transform: rotate(-32deg);
+    -o-transform: rotate(-32deg);
+}
+
+.tri-faixaPreta {
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 565px;
+    left: -30px;
+    top: 20px;
+    position: absolute;
+    transform: rotate(-0deg);
+    -webkit-transform: rotate(-0deg);
+    -moz-transform: rotate(-0deg);
+    -ms-transform: rotate(-0deg);
+    -o-transform: rotate(-0deg);
+}
