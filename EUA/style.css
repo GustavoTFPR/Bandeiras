@@ -1,0 +1,19 @@
+.Bandeira {
+    position: relative;
+    width: 400px;
+    height: 211px;
+    background: repeating-linear-gradient(
+        to bottom,
+        #B22234 0px,    #B22234 16.2px,
+        white   16.2px, white   32.4px
+    );
+}
+
+.Cantao {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 113px;
+    background-color: #3C3B6E;
+}

@@ -1,25 +1,42 @@
 .Bandeira {
-    display: flex;
-    height: 300px;
-    width:  400px;
-    flex-direction: column;
-}
-
-.Amarelo {
-    background-color: yellow;
-    flex: 1.5;
-}
-
-.Azul {
-    background-color: blue;
-    flex: 1;
-    
-
-}
-
-.Vermelho {
-
+    position: relative;
+    width: 400px;
+    height: 250px;
     background-color: red;
-    flex: 1;
-
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  
+.Lua {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 38%;
+    left: 35%;
+    transform: translate(-50%, -50%);
 }
+
+.Lua::after {
+    content: "";
+    width: 65px;
+    height: 65px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: 18px;
+}
+  
+.Estrela { 
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 68px;
+    line-height: 1;
+    margin-top: -34px;
+    margin-left: -22px;
+  }

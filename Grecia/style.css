@@ -1,0 +1,37 @@
+.Bandeira {
+    position: relative;
+    width: 400px;
+    height: 267px;
+    background: repeating-linear-gradient(
+        to bottom,
+        #0D5EAF 0px,    #0D5EAF 29.7px,
+        white   29.7px, white   59.4px
+    );
+}
+
+.Quadrado {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 133px;
+    height: 148px;
+    background-color: #0D5EAF;
+}
+
+.CruzVertical {
+    position: absolute;
+    top: 0;
+    left: 44px;
+    width: 44px;
+    height: 148px;
+    background-color: white;
+}
+
+.CruzHorizontal {
+    position: absolute;
+    top: 51px;
+    left: 0;
+    width: 133px;
+    height: 44px;
+    background-color: white;
+}
