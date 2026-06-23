@@ -1,19 +1,49 @@
 .Bandeira {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
     position: relative;
-    width: 400px;
-    height: 211px;
-    background: repeating-linear-gradient(
-        to bottom,
-        #B22234 0px,    #B22234 16.2px,
-        white   16.2px, white   32.4px
-    );
+    border: 1px solid black;
 }
 
-.Cantao {
+.fxvermelha {
+    flex:1;
+    background-color: brown;
+}
+
+.fxbranca {
+    flex: 1;
+    background-color: aliceblue;
+
+}
+
+.quadrado-azul {
+    width: 150px;
+    height: calc(100%/13*7);
+    background-color: darkblue;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 160px;
-    height: 113px;
-    background-color: #3C3B6E;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    box-sizing: border-box;
+    gap: 7px;
+}
+
+.estrela {
+    width: 7px;
+    height: 7px;
+    background-color: white;
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
 }
